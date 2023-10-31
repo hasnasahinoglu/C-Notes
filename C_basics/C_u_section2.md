@@ -338,6 +338,37 @@ while (i<input){
     return 0;
 ```
 
+> do while is very conveninent when it comes to get inputs from the user over and over again, here is an example:
+
+```c
+#include <stdio.h>
+int main()
+{
+   int num;
+
+   do {
+        int fac=1; // the result should be redefined at the beginning of each iteration
+        printf("Give me a positive integer and I will calculate the factorial of it: ");
+        scanf("%d", &num);
+
+        if (num>0)
+        {
+            for (int i=num; i>1; i--)
+            {
+                printf("%d x ",i);
+                fac *= i;
+            }
+            printf("1 = %d \n", fac);
+        }else
+            continue;
+
+    }while (num <= 0); // it will continue to ask until the user enters a positive number
+
+
+    return 0;
+}
+```
+
 ## Switch-Case 
 
 Similar to dictionary structure
