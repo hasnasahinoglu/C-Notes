@@ -273,7 +273,7 @@ for(i=1; i<=5; i++) {
     printf("%d ",i);
 }
 ```
-sum function example:
+>sum function example:
 ```c
 int i, number, result=0;
 printf("Please give a number: ");
@@ -284,7 +284,25 @@ for (i=0; i<=number; i++){
 }
 printf("Sum of the numbers up to %d is %d",number,  result);
 ```
+>Here is a block of code that prints specified number of " * ":
+```c
+int graph[10];
 
+for (int i=0; i<10; i++)
+{
+    printf("\n%d. item: (Please enter) ",i+1);
+    scanf("%d", &graph[i]);
+}
+
+for (int i=0; i<10; i++)
+{
+    printf("\n%4d. item:%5d --> ",i, graph[i]); // use %4d and %5d to alter spaces
+    for (int j=0; j<graph[i]; j++)
+    {
+        printf("*");
+    }
+}
+```
 ## while loop
 
 ```
