@@ -4,14 +4,14 @@
 
 basic usages
 ```c
-printf("CodeBlocks?\n Is it really the best IDE for C?");
+printf("CodeBlocks?\n is a widely used IDE for C");
 ```
 ```c
-printf("Any other recommends for C\\C++?");
+printf("It is actually used with C\\C++ languages");
 // for one \, use \\
 ```
 ```c
-printf("Why do we even learn \"C\"?");
+printf("Believe it or not, \"C\" is very essential");
 // to make "" in a "", use \"
 ```
 
